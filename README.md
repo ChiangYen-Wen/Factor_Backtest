@@ -1,11 +1,11 @@
-# 📈 Nano Special Value Strategy
+# 📈 Nano Special-Value Strategy
 
 > 💡 **專案命名由來：**
 >
 > * **Nano**：代表策略聚焦於市值後 20% 的小型股（Nano-cap），具備成長潛力。
-> * **Special Value**：篩選 P*[P/B] 值最低的 20% 公司，屬於調整後的價值型投資（Value Investing）。
+> * **Special-Value**：篩選 P*[P/B] 值最低的 20% 公司，屬於調整後的價值型投資（Value Investing）。
 >
-> 此策略結合三大經典風格：小型股、價值股，具備多因子篩選特性，故命名為 **NanoValue-Momentum Strategy**。
+> 此策略結合三大經典風格：小型股、價值股，具備多因子篩選特性，故命名為 **Nano Special-Value Strategy**。
 
 本專案為一套完整的選股回測架構，涵蓋資料清理、缺值處理、選股邏輯、回測程式碼與視覺化報表輸出。
 
@@ -83,13 +83,13 @@ project/
 
 ### 📉 回擊圖 (Drawdown)
 
-* 視覺化最大資產回擊期間與幅度
+* 視覺化最大資產回徹期間與波動幅度
 
 ---
 
 ## 🧰 執行方式
 
-### ✅ 安裝必要套件
+### ✅ 安裝套件
 
 ```bash
 pip install pandas matplotlib seaborn ffn
